@@ -7,4 +7,4 @@ const pares = (valores = []) => {
   }
   return filtro 
 }
-console.log(pares([1, 2, 3, 4, 5, 5, 7, 8, 9, 10, 11]));
+console.log(pares([1, 2, 3, 4, 5, 5, 7, 8, 9, 10]));
