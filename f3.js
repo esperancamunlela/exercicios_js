@@ -1,3 +1,5 @@
+/*3-Escreva uma função anônima que receba um array de strings e retorne a string
+com mais caracteres.*/
 let nome;
 const palavras = function (nomes = []) {
   let maior = 0;

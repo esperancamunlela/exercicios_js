@@ -1,3 +1,5 @@
+/*4. Crie uma função que recebe um número e retorna true se for primo e false caso
+contrário.*/
 let divisores = 0;
 function primo(valor){
   for (let i = 0; i <= valor; i++){

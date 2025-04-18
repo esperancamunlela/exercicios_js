@@ -1,10 +1,6 @@
-// exercicio 6
-const pares = (valores = []) => {
-    
-  for (let i = 0; i < valores.length; i++) {
-    const filtro = valores.filter((valores) => valores[i] % 2 === 0); 
-   
-  }
-  return filtro 
+// 6. Criar uma função que filtre números pares de um array.
+const pares = (valores = []) => { 
+    const FILTRO = valores.filter(valor => valor % 2 === 0);  
+  return FILTRO 
 }
 console.log(pares([1, 2, 3, 4, 5, 5, 7, 8, 9, 10]));
